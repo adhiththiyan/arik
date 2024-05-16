@@ -1,0 +1,157 @@
+@font-face {
+  font-family: 'Satoshi';
+  src: url('fonts/Satoshi-Regular.woff2') format('woff2'),
+    url('fonts/Satoshi-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Chillax';
+  src: url('/fonts/Chillax-Variable.ttf') format('ttf'),
+    url('/fonts/Chillax-Variable.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: #DAC5A7;
+}
+
+.cards {
+  background: rgba(218, 197, 167, 0.05);
+  border: 1px solid rgba(218, 197, 167, 0.15);
+  border-radius: 2px;
+}
+
+.button {
+  font-family: 'Satoshi', sans-serif;
+  padding: 10px 16px;
+
+  min-width: 111px;
+  min-height: 41px;
+
+  /* background/primary */
+  background: #DAC5A7;
+  border-radius: 2px;
+
+  color: #0E0E0E;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.satoshi {
+  font-family: 'Satoshi', sans-serif;
+}
+
+.header-menu {
+  padding: 12px, 12px, 12px, 24px;
+}
+
+.navbar-menu-item {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.header1 {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 400;
+  font-size: 150px;
+  color: #DAC5A7;
+}
+
+.menu {
+  position: relative;
+  z-index: 9999;
+}
+
+.banner {
+  position: relative;
+  display: flex;
+  z-index: -9999;
+  top: -90px;
+  margin-bottom: 180px;
+  display: flex;
+  justify-content: center;
+}
+.banner-text {
+  position: absolute;
+  top: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.service-card{
+  background: #DAC5A70D;
+  border: 1px solid #DAC5A726;
+  padding: 48px;
+}
+p span img{
+  border: 1px solid #DAC5A7;
+  border-radius: 50%;
+  opacity: 0.5;
+  padding: 2px;
+}
+.work-type-container{
+width: 600px;
+height: 513px;
+}
+.head-para{
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Chillax';
+  opacity: 0.5;
+  font-weight: 200;
+  max-width: 60%;
+}
+.para{
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 28px;
+  color: #DAC5A7;
+  font-family: 'Chillax';
+  opacity: 0.5;
+}
+.img-width img{
+  width: 50px;
+  height: 25px;
+}
+.card2{
+  padding: 48px;
+  background: rgba(218, 197, 167, 0.05);
+  border: 1px solid rgba(218, 197, 167, 0.15);
+  border-radius: 2px;
+  max-width: 400px;
+}
+.card3{
+  height: 500px;
+}
+.card2 h2{
+  font-family: 'Satoshi';
+  font-weight: 100;
+  font-size: 24px;
+}
+.card2 .logo img{
+  border-radius: 50%;
+}
+.footer {
+  font-family: 'Satoshi';
+  font-weight: 100;
+  font-size: 13px;
+}
+.footer ul li{
+  cursor: pointer;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+.footer-head{
+  margin-bottom: 18px;
+  font-size: 20px;
+}

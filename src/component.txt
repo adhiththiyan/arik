@@ -1,0 +1,26 @@
+Pages/
+  FrontPage
+components/
+  Heading
+  Cards
+  UserFacePile
+  UserInfo
+  ParagraphContent
+  CallToAction
+    Button
+  Header/
+    SectionHero
+    HeaderMenu
+    HeaderBanner
+  ContentPane/
+    CompanyListItems
+    ServiceListItems
+    WorkTypeItemList
+    ProcessList
+    TestimonialsList
+Footer
+  FooterBanner
+  GetInTouchBlock
+  FooterLinks
+  CopyrightBlock
+  NavigateToTop
