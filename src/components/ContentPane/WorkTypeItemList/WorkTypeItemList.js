@@ -5,10 +5,10 @@ import linkImg from "@arik-portfolio/images/ph_arrow-up-right-light.png"
 
 
 const WORK_TYPES = [
-  { type: "Sonic", image: "/images/worktype3.png" },
-  { type: "Space", image: "/images/worktype1.png" },
-  { type: "Solar", image: "/images/worktype4.png" },
-  { type: "Nova", image: "/images/worktype2.png" },
+  { type: "Sonic", image: "images/worktype3.png" },
+  { type: "Space", image: "images/worktype1.png" },
+  { type: "Solar", image: "images/worktype4.png" },
+  { type: "Nova", image: "images/worktype2.png" },
 
 ];
 
